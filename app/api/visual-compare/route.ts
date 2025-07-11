@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getVisualComparisonService } from '@/app/services/visualComparisonService';
-import { getDOMAnalysisService } from '@/app/services/domAnalysis';
+import { getVisualComparisonService } from '@/services/visualComparisonService';
+import { getDOMAnalysisService } from '@/services/domAnalysis';
 
 export async function POST(request: NextRequest) {
   let visualService = null;
